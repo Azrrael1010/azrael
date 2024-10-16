@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrae Ese Amor Que Te Pertenece</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="row start m-0 d-flex justify-content-center align-items-center">
+        <div class="col-12">
+            <h1 class="font-weight-bold firsth1">Amarres</h1>
+            <h5 class="fisth5">Magia blanca</h5>
+        </div>
+    </div>
+
+    <div class="row d-flex cards p-5">
+        <div class="card mt-0 w-25">
+            <img src="Imagenes/pareja1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">¿Quienes somos?</h5>
+                <p class="card-text">Somos expertos en magia blanca con una experiencia de 10 años, nos especializamos en el tarot y amarre.</p>
+            </div>
+        </div>
+        <div class="card mt-0 w-25">
+            <img src="Imagenes/pareja2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">No dejes pasar más el tiempo</h5>
+                <p class="card-text">Cientos de clientes encontraron al amor que buscaban o recuperaron lo que creían perdido a través de nuestros rituales.</p>
+            </div>
+        </div>
+        <div class="card mt-0 w-25">
+            <img src="Imagenes/pareja3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rituales</h5>
+                <p class="card-text">Poseo conocimiento y experiencia en casi todos los rituales conocidos, magia blanca, magia negra, magia roja, magia Wicca y mucho mas.</p>
+            </div>
+        </div>
+        <div class="card mt-0 w-25">
+            <img src="Imagenes/ritual1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Trabajos que realizamos</h5>
+                <p class="card-text">Hacemos todo tipo de trabajos, unión de parejas, cortes, alejamiento de personas problemáticas, 
+                    ayudas económicas de todo tipo, limpiezas espirituales y muchos mas. Cualquiera sea tu pedido puedo encontrar un 
+                    ritual especial para ayudarte en tu camino a la felicidad</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Amarres</h3>
+                        <p>Complete la información requerida</p>
+                        <h4>Mientras más información, mayor es la probabilidad de buenos resultados. <br>
+                            ¿Cómo has conocido a esa persona?<br>
+                            ¿Si han estado en pareja, cuánto tiempo?<br>
+                            ¿Qué desea usted realmente?<br>
+                            Si va a solicitar un amarre, incluya el nombre de usted y de la otra persona.
+                        </h4>
+                        <form class="requires-validation" novalidate action="https://www.paypal.com/cgi-bin/webscr"
+                            method="post" target="_top">
+                            <div class="col-md-12">
+                                <input class="form-control" type="text" name="name" placeholder="Nombre de usted" required>
+                                <div class="valid-feedback">El nombre es válido</div>
+                                <div class="invalid-feedback">El nombre no es válido!</div>
+                            </div>
+
+                            <div class="col-md-12 mt-3">
+                                <input class="form-control" type="number" id="edad" name="edad"
+                                    placeholder="Ingresa tu edad" min="1" max="120" required>
+                                <div class="valid-feedback">La edad es válida</div>
+                                <div class="invalid-feedback">Por favor, ingresa una edad válida entre 1 y 120.</div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <select class="form-select mt-3" name="situacion" required>
+                                    <option selected disabled value="">Tu situación</option>
+                                    <option value="jweb">Me ha dejado mi pareja</option>
+                                    <option value="sweb">Quiero atraer a alguien</option>
+                                    <option value="pmanager">Otro(explicar abajo)</option>
+                                </select>
+                                <div class="valid-feedback">You selected a position!</div>
+                                <div class="invalid-feedback">Please select a position!</div>
+                            </div>
+                            <div class="col-md-12 mt-3">
+                                <label for="problema">Describe tu situación (Obligatorio):</label>
+                                <textarea class="form-control" id="problema" name="problema" rows="5"
+                                    placeholder="Escribe aquí los detalles de tu problema..." required></textarea>
+                                <div class="valid-feedback">El texto es válido</div>
+                                <div class="invalid-feedback">Por favor, describe tu situación.</div>
+                            </div>
+
+                            <div class="col-md-12 mt-3">
+                                <label class="mb-3 mr-1" for="gender">Género: </label>
+                                <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="male">Hombre</label>
+                                <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="female">Mujer</label>
+                                <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
+                                <label class="btn btn-sm btn-outline-secondary" for="secret">Secreto</label>
+                                <div class="valid-feedback mv-up">Has seleccionado un género!</div>
+                                <div class="invalid-feedback mv-up">Por favor selecciona un género!</div>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label">Confirmo que la información es correcta</label>
+                                <div class="invalid-feedback">Por favor, confirma que la información es correcta!</div>
+                            </div>
+
+                            <div class="col-md-12 mt-4">
+                                <p class="alert alert-danger" style="color: black;">
+                                    ❌ <strong>IMPORTANTE:</strong> SI NO SE HACE LA TRANSFERENCIA SEGÚN INSTRUCCIONES,
+                                    NO SE ENVIARÁ LO COMPRADO.
+                                </p>
+                                <p class="alert alert-warning" style="color: black;">
+                                    🔹 <strong>PONER EN NOTA:</strong> “servicio digital entregado. No emitiré reembolso
+                                    del mismo.”
+                                </p>
+                                <div class="row">
+                                    <div class="form-button col-6 d-flex justify-content-center align-items-center">
+                                        <button id="submit" type="button" class="btn btn-success">Pagar con
+                                            PayPal</button>
+                                    </div>
+                                    <div class="form-button col-6 d-flex justify-content-center align-items-center">
+                                        <button id="submit1" type="button" class="btn btn-primary">Pagar con
+                                            Mercado pago</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center justify-content-center">
+        <h5>Al ingresar y consultar por nuestros servicios Ud. esta aceptando nuestros <a id="terms" href="#">Términos y Condiciones</a></h5>
+    </div>
+
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termsModalLabel">Términos y Condiciones</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>TERMINOS Y CONDICIONES:
+                        En nuestra web no almacenamos información personal ni financiera, los datos compartidos por el consumidor son totalmente privados y no serán compartidos bajo ninguna excepción.
+                        
+                        El envío de cualquier tipo de información, tanto que el consumidor manda como que reciba debe ser bajo su total consentimiento.
+                        
+                        Los resultados siempre van a depender de cada consumidor, y del caso concreto.
+                        
+                        Al utilizar cualquier de los servicios que ofrecemos, el consumidor declara que acepta y entiende nuestra política de privacidad.
+                        
+                        Los consumidores deben ser sin excepción mayores de edad (18 años).
+                        
+                        Los servicios ofrecidos son pura y exclusivamente para personas adultas.
+                        
+                        Los servicios que se ofrecen no sustituyen la atención médica, psicológica y psiquiátrica profesional.
+                        
+                        De acuerdo con las legislaciones vigentes se establece que las lecturas, videncias, hechizos, predicciones, etc. Tienen fines de entretenimiento y sin base científica.
+                        
+                        No se hace responsable por cualquier tipo de pérdida o daño relacionado con el mal manejo del sitio web, o uso indebido de la información suministrada.
+                        
+                        El consumidor renuncia a cualquier posibilidad de reembolso una vez efectuado el pago.
+                        
+                        Al usar nuestros servicios el consumidor manifiesta que entiende y está totalmente de acuerdo con los puntos anteriores</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        (function () {
+            'use strict';
+            const forms = document.querySelectorAll('.requires-validation');
+            const terms = document.getElementById('terms');
+
+            Array.from(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+
+            document.getElementById('submit').onclick = function () {
+                const form = document.querySelector('.requires-validation');
+                if (form.checkValidity()) {
+                    window.location.href = "https://www.paypal.com/paypalme/agusshini";
+                } else {
+                    form.classList.add('was-validated');
+                }
+            };
+
+            document.getElementById('submit1').onclick = function () {
+                const form = document.querySelector('.requires-validation');
+                if (form.checkValidity()) {
+                    window.location.href = "https://link.mercadopago.com.ar/so1yo";
+                } else {
+                    form.classList.add('was-validated');
+                }
+            };
+
+
+            terms.onclick = function (event) {
+                event.preventDefault();
+                $('#termsModal').modal('show');
+            };
+        })();
+    </script>
+</body>
+
+</html>
