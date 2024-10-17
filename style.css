@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
 
+.cards{
+  height: ;
+}
+
 .start {
   background-image: url('Imagenes/tarot1.png');
   width: 100vw;
@@ -12,6 +16,39 @@
   justify-content: center;
   text-align: center;  
 }
+
+.instagram-icon {
+  position: fixed;
+  bottom: 20px; 
+  right: 40px;
+  font-size: 4rem;
+  color: #fff;
+  z-index: 1000; 
+}
+
+.facebook-icon:hover {
+  color: #E1306C; 
+}
+
+.socials-networks{
+  margin: 15px;
+}
+
+.facebook-icon {
+  position: fixed;
+  margin-right: 5rem;
+  bottom: 20px; 
+  right: 40px;
+  font-size: 4rem;
+  color: #fff;
+  z-index: 1000; 
+}
+
+.instagram-icon:hover {
+  color: #E1306C; 
+}
+
+
 
 .firsth1 {
   font-size: 5rem;

@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atrae Ese Amor Que Te Pertenece</title>
+    <title>Azrael Amarres</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="Imagenes/logo2.png">
+
 </head>
 
 <body>
@@ -19,18 +21,18 @@
     </div>
 
     <div class="row d-flex cards p-5">
-        <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card mt-0">
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+            <div class="card h-100 d-flex flex-column ">
                 <img src="Imagenes/pareja1.png" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-body flex-grow-1">
                     <h5 class="card-title">¿Quienes somos?</h5>
                     <p class="card-text">Somos expertos en magia blanca con una experiencia de 10 años, nos
                         especializamos en el tarot y amarre.</p>
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card mt-0">
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+            <div class="card h-100 d-flex flex-column ">
                 <img src="Imagenes/pareja2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">No dejes pasar más el tiempo</h5>
@@ -39,8 +41,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card mt-0">
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+            <div class="card h-100 d-flex flex-column ">
                 <img src="Imagenes/pareja3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Rituales</h5>
@@ -49,8 +51,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card mt-0">
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+            <div class="card h-100 d-flex flex-column">
                 <img src="Imagenes/ritual1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Trabajos que realizamos</h5>
@@ -63,7 +65,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="form-body">
         <div class="row">
@@ -133,14 +134,15 @@
                                 <div class="invalid-feedback mv-up">Por favor selecciona un género!</div>
                             </div>
 
-                        
+
                             <div class="form-check d-flex justify-content-start">
                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                <label class="form-check-label mb-0" for="invalidCheck">Confirmo que la información es correcta</label>
+                                <label class="form-check-label mb-0" for="invalidCheck">Confirmo que la información es
+                                    correcta</label>
                                 <div class="invalid-feedback">Por favor, confirma que la información es correcta!</div>
                             </div>
-                            
-                            
+
+
                             <div class="col-md-12 mt-4">
                                 <p class="alert alert-danger" style="color: black;">
                                     ❌ <strong>IMPORTANTE:</strong> SI NO SE HACE LA TRANSFERENCIA SEGÚN INSTRUCCIONES,
@@ -150,15 +152,29 @@
                                     🔹 <strong>PONER EN NOTA:</strong> “servicio digital entregado. No emitiré reembolso
                                     del mismo.”
                                 </p>
-                                <div class="row">
-                                    <div class="form-button col-6 d-flex justify-content-center align-items-center">
+
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <script
+                                        src="https://www.paypal.com/sdk/js?client-id=BAA3Qp8h0MlU0BUZS8ezymQud3LPg5r-WCdsIyt-SxpBX9wzDZTm-thp_nQNV-s0j201vPtkDLrbRxuH9A&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+                                    <div id="paypal-container-CCFBP8QKLG7D8"></div>
+                                    <script>
+                                        paypal.HostedButtons({
+                                            hostedButtonId: "CCFBP8QKLG7D8",
+                                        }).render("#paypal-container-CCFBP8QKLG7D8")
+                                    </script>
+
+                                    <!-- <div class="form-button col-6 d-flex justify-content-center align-items-center">
                                         <button id="submit" type="button" class="btn btn-success">Pagar con
                                             PayPal</button>
                                     </div>
                                     <div class="form-button col-6 d-flex justify-content-center align-items-center">
                                         <button id="submit1" type="button" class="btn btn-primary">Pagar con
                                             Mercado pago</button>
-                                    </div>
+                                    </div> -->
+                                </div>
+                                <div class="row d-flex justify-content-center align-items-center text-center ">
+                                    <p class="text-secondary" >Para pagar con Mercado Pago contactenos por <a href="https://www.facebook.com/profile.php?id=61567087208340
+                                        ">Facebook</a> o <a href="https://www.instagram.com/amarres.azrael/">Instagram</a>
                                 </div>
                             </div>
                         </form>
@@ -171,12 +187,12 @@
     <div class="row d-flex align-items-center justify-content-center text-center px-3">
         <h5 class="terms-text">
             Al ingresar y consultar por nuestros servicios Ud. está aceptando nuestros
-            <a id="terms" href="#">Términos y Condiciones</a>
+            <a id="terms" href="#" data-toggle="modal" data-target="#termsModal">Términos y Condiciones</a>
         </h5>
     </div>
     
-    <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel"
-        aria-hidden="true">
+    <!-- Modal de Términos y Condiciones -->
+    <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -214,7 +230,8 @@
                         El consumidor renuncia a cualquier posibilidad de reembolso una vez efectuado el pago.
 
                         Al usar nuestros servicios el consumidor manifiesta que entiende y está totalmente de acuerdo
-                        con los puntos anteriores</p>
+                        con los puntos anteriores
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -222,50 +239,54 @@
             </div>
         </div>
     </div>
+    <div class="row socials-networks">
+        <a class="fa-brands fa-instagram instagram-icon" href="https://www.instagram.com/amarres.azrael/"></a>
+        <a class="fa-brands fa-facebook facebook-icon" href="https://www.facebook.com/profile.php?id=61567087208340"></a>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        (function () {
-            'use strict';
-            const forms = document.querySelectorAll('.requires-validation');
-            const terms = document.getElementById('terms');
+            (function () {
+                'use strict';
+                const forms = document.querySelectorAll('.requires-validation');
+                const terms = document.getElementById('terms');
 
-            Array.from(forms).forEach(function (form) {
-                form.addEventListener('submit', function (event) {
-                    if (!form.checkValidity()) {
-                        event.preventDefault();
-                        event.stopPropagation();
+                Array.from(forms).forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+
+                document.getElementById('submit').onclick = function () {
+                    const form = document.querySelector('.requires-validation');
+                    if (form.checkValidity()) {
+                        window.location.href = "https://www.paypal.com/paypalme/agusshini";
+                    } else {
+                        form.classList.add('was-validated');
                     }
-                    form.classList.add('was-validated');
-                }, false);
-            });
+                };
 
-            document.getElementById('submit').onclick = function () {
-                const form = document.querySelector('.requires-validation');
-                if (form.checkValidity()) {
-                    window.location.href = "https://www.paypal.com/paypalme/agusshini";
-                } else {
-                    form.classList.add('was-validated');
-                }
-            };
-
-            document.getElementById('submit1').onclick = function () {
-                const form = document.querySelector('.requires-validation');
-                if (form.checkValidity()) {
-                    window.location.href = "https://link.mercadopago.com.ar/so1yo";
-                } else {
-                    form.classList.add('was-validated');
-                }
-            };
+                document.getElementById('submit1').onclick = function () {
+                    const form = document.querySelector('.requires-validation');
+                    if (form.checkValidity()) {
+                        window.location.href = "https://link.mercadopago.com.ar/so1yo";
+                    } else {
+                        form.classList.add('was-validated');
+                    }
+                };
 
 
-            terms.onclick = function (event) {
-                event.preventDefault();
-                $('#termsModal').modal('show');
-            };
-        })();
+                terms.onclick = function (event) {
+                    event.preventDefault();
+                    $('#termsModal').modal('show');
+                };
+            })();
     </script>
 </body>
 
